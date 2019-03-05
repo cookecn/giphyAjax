@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+
 </head>
 
 <body>
@@ -30,7 +32,7 @@
         <div id="add-giphy-button"></div>
 
         <br> 
-
+        <!--Creating a form to allow user input to create buttons that will go in add-giphy-button-->
         <form id="giphy-form">
 
             <label for="giphy-input">Search for Giphy GIF's!</label>
@@ -43,10 +45,11 @@
         </form>
 
         <br>
-            
-        <!--dump for the JSON content-->
-        <!--This is where the images should go-->
-        <div id="giphy-view"></div> 
+
+        <div class="container">
+            <!--This is where the images will go-->
+            <div id="giphy-view"></div>
+        </div>   
 
     </div>
 
