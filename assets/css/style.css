@@ -1,8 +1,25 @@
+body {
+    background-color: darkslategrey;
+}
+
+.container {
+    background-color: gainsboro;
+    border-style: solid;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+}
+
+
 button,
 div,
 form,
 input {
     margin: 10px;
+    font-family: 'Monda', sans-serif;
 }
 
 #giphyImages {
